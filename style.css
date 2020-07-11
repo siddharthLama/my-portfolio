@@ -1,0 +1,81 @@
+h1{
+    border: solid;
+    margin-top: 30px;
+
+    color: #f3070e;
+}
+body{
+    background-color: #fcfcfc;
+}
+.header{
+    border-style: outset;
+    border-color: sandybrown;
+    border-width: 12px;
+    background-color: #0eefff;
+    display: flex;
+    justify-content : space-between;
+}
+.grid{
+    display: flex;
+flex-wrap: wrap;
+justify-content: space-evenly;
+}
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
+h2{
+    text-align: center;
+}
+p{
+    text-align: center;
+    font-size:25px ;
+    font-style: oblique;
+}
+.myself{
+    border-style: outset;
+    border-width: 12px;
+    border-color: sandybrown;
+    text-align: center;
+    font-style: italic;
+    font-size: large;
+}
+
+.menu{
+    font-size: 25px;
+    font-style: italic;
+    margin-right: 30px;
+}
+a:link{
+    color: #000000
+}
+a:visited{
+    color : #fcfcfc
+}
+.menu a{
+    margin-left : 20px
+}
+.item{
+    position: relative;
+}
+.item p{
+    position : absolute;
+top:50%;
+left:50%;
+transform: translate(-50%,-50%);
+opacity: 0;
+
+}
+.item:hover p{
+    opacity: 1;
+}
+.item :hover img{
+    opacity: 0.3;
+}
+body {
+    background-image: url("watercolor2.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    
+}
